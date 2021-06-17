@@ -8,6 +8,7 @@ import PRODUCTS from '../../Data';
 const WomenItems = () => (
 
   
+  
   <div className="items">
     {PRODUCTS.map((product) => {
       if (product.gender === "women") {
