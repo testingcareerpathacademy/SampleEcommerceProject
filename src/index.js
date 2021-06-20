@@ -21,10 +21,10 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/cart" component={Cart} />
-        {/* <Route path="/women" component={Women}  />
+        <Route path="/women" component={Women}  />
         <Route path="/men" component={Men} />
         <Route path="/clothes" component={Clothes}  />
-        <Route path="/accessories" component={Accessories} /> */}
+        <Route path="/accessories" component={Accessories} />
         <Route exact path="/products/:id" component={ShowProduct} />
       </Switch>
     </BaseLayout>
