@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     name: "Brown Shirt",
-    description: "******************",
+    description: "Brown T-Shirt for Women",
     price: 16.99,
     gender: "women",
     type: "shirt",
