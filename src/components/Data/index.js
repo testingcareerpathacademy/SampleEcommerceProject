@@ -6,7 +6,7 @@ const products = [
     price: 16.99,
     gender: "women",
     type: "shirt",
-    img: "https://image.ibb.co/kOhL6k/img1.jpg",
+    img: "http://media.istockphoto.com/photos/portrait-of-young-man-wearing-tshirt-picture-id465207699?k=6&m=465207699&s=612x612&w=0&h=wSacC0bmcrekig1DW8lOwH7y3X0e4R9266-TuivVQJA=",
     inCart: false,
     category: "clothes"
   },
@@ -23,9 +23,9 @@ const products = [
   },
   {
     id: 3,
-    name: "Women Grey Shirt",
+    name: "Men Grey Shirt",
     description: "Grey Shirt for Women",
-    price: 14.99,
+    price: -14.99,
     gender: "women",
     type: "shirt",
     img: "https://image.ibb.co/n6iMCQ/img3.jpg",
@@ -135,7 +135,7 @@ const products = [
     id: 13,
     name: "Man Black Shirt",
     description: "Black T-Shirt for Men",
-    price: 10.99,
+    price: 100000000.99,
     gender: "men",
     type: "shirt",
     img: "http://media.istockphoto.com/photos/smiling-young-man-in-blank-black-tshirt-picture-id464946525?k=6&m=464946525&s=612x612&w=0&h=KAjCFoJGDcFcx8R33Tq1vzqbfixh1XwGpFeiRNoTkRQ=",
@@ -182,7 +182,7 @@ const products = [
     price: 13.99,
     gender: "men",
     type: "tie",
-    img: "http://image.11st.my/g3/2/7/4/6/7/1/1274671_B_V5.jpg",
+    img: "http://media.istockphoto.com/photos/young-man-looks-to-the-side-picture-id184616842?k=6&m=184616842&s=612x612&w=0&h=SmtsffRByKDH4_HtzGY8bWvHgH8o_4epWVPogvfJXnk=",
     inCart: false,
     category: "accessories"
   },
@@ -218,7 +218,28 @@ const products = [
     img: "http://static.becomegorgeous.com/img/articles/what_does_your_mans_tie_tell_about_his_personality_.jpg",
     inCart: false,
     category: "accessories"
+  },{
+    id: 21,
+    name: "5-Pack Man Ties",
+    description: "Ties for Menn",
+    price: 37.99,
+    gender: "men",
+    type: "tie",
+    img: "http://www.theethicalman.com/uploads/4/8/0/0/4800645/3035404_orig.png",
+    inCart: false,
+    category: "accessories"
   },
+  {
+    id: 22,
+    name: "6-Pack Man Ties",
+    description: "Ties for Men",
+    price: 39.99,
+    gender: "men",
+    type: "tie",
+    img: "https://5.imimg.com/data5/EI/FT/MY-4255391/men-s-casual-pant-500x500.jpg",
+    inCart: false,
+    category: "accessories"
+  }
 ];
 
 export default products;

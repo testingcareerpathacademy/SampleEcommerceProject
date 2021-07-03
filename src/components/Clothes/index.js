@@ -9,7 +9,7 @@ class Clothes extends Component {
     return(
       <div className="clothes">
         <div className="clothes-title">
-          <h4>Clothes</h4>
+          <h4>Clothesw</h4>
         </div>
         <ClothesItems />
       </div>

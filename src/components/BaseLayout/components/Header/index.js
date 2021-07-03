@@ -11,7 +11,7 @@ const Header = () => (
       <p><NavLink activeClassName="selected" className="nav-link-header" to="/women">Women</NavLink></p>
       <p><NavLink activeClassName="selected" className="nav-link-header" to="/men">Men</NavLink></p>
       <p><NavLink activeClassName="selected" className="nav-link-header" to="/clothes">Clothes</NavLink></p>
-      <p><NavLink activeClassName="selected" className="nav-link-header" to="/accessories">Accessories</NavLink></p>
+      <p><NavLink activeClassName="selected" className="nav-link-header" to="/accessories">Accessries</NavLink></p>
     </div>
   </div>
 )

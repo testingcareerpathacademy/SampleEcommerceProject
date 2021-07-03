@@ -25,6 +25,7 @@ ReactDOM.render(
         <Route path="/men" component={Men} />
         <Route path="/clothes" component={Clothes}  />
         <Route path="/accessories" component={Accessories} />
+        <Route path="/contact" component={Clothes} />
         <Route exact path="/products/:id" component={ShowProduct} />
       </Switch>
     </BaseLayout>

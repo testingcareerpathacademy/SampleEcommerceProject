@@ -20,7 +20,7 @@ const AllItems = () => (
         </div>
         </Link>
         <div className="price-add">
-          <h5 id="product-price">${product.price}</h5>
+          <h10 id="product-price">$${product.price}</h10>
           <Icon small id="add-icon">add_shopping_cart</Icon>
         </div>
       </div>
